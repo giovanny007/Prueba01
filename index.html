@@ -35,32 +35,35 @@
       color: black;
       font-size: 1rem;
     }
-    #part1{
-        color: #1c1c35;
-        font-style: italic;
-        font-variant: small-caps;
-            }
+    .micontenedor {
+      display:flex;
+      flex-flow:row wrap;
+      justify-content: space-content;
+      color: #1c1c35;
+      font-style: italic;
+      font-variant: small-caps;
+    }
     #part2{
         color: #1c1c35;
         font-variant: small-caps;
         font-style: italic;
             } 
-    ul {
+    ol {
         list-style-type: circle;
     }       
     </style>
 
-  <header style="text-align:center">
-  <h1>ALAN GIOVANNY RIOS ORRANTE</h1>
+  <header>
+  <h1 class="rectangle">ALAN GIOVANNY RIOS ORRANTE</h1>
   <img src="https://thumbs.dreamstime.com/b/real-man-face-portrait-looking-camera-blue-background-33713265.jpg" height="200"/>
-    <p>Av. Eugenio Garza Sada 2501 Sur, 64849 Monterrey, Nuevo León</p>
+    <p class="rectangle" id="one">Av. Eugenio Garza Sada 2501 Sur, 64849 Monterrey, Nuevo León</p>
   </header>
 
-  <main style="text-align:center">
+  <main>
 <section 1>
-    <h3>OBJETIVO</h3>
+    <h3 class="rectangle">OBJETIVO</h3>
     <div style="color: #040; font-style: italic">
-    <p>Principalmente acelerar la transición del mundo hacia la energía sustentable. 
+    <p class="rectangle" id="two">Principalmente acelerar la transición del mundo hacia la energía sustentable. 
     Además, Mantener el liderazgo de los autos eléctricos, ser pioneros en el uso de 
     nuevas tecnologías y generar un crecimiento exponencial en la empresa que me 
     contrate.</p>
@@ -68,9 +71,9 @@
 </section 1>
 
 <section 2>
-    <h3>EXPERIENCIA</h3>
-    <p>Los diferentes trabajos en donde eh laborado los identifico a continuación:</p>
-    <ol>
+    <h3 class="rectangle">EXPERIENCIA</h3>
+    <p class="rectangle" id="three">Los diferentes trabajos en donde eh laborado los identifico a continuación:</p>
+    <ol class="rectangle">
         <li>Laguna gage & tooling, 6 meses</li>
         <li>ATA, aislamiento termoacustico y soldadura, 6 meses</li>
         <li>Cinemex, 6 meses</li>
@@ -79,9 +82,9 @@
 </section 2>
 
 <section 3>
-    <h3>EDUCACION</h3>
-    <p>Los agrados academicos acreditados por mi hasta la fecha son los siguientes:</p>
-    <ol>
+    <h3 class="rectangle">EDUCACION</h3>
+    <p class="rectangle" id="four">Los agrados academicos acreditados por mi hasta la fecha son los siguientes:</p>
+    <ol class="rectangle">
         <li>Primaria, Esc. Gral. Lucio Blanco</li>
         <li>Secundaria, Salomon Issa Murra</li>
         <li>Preparatoria tecnica, BATEIL - Tecnico en Máquinas herramienta</li>
@@ -90,8 +93,8 @@
 </section 3>
 
 <section 4>
-    <h3>INTERESES</h3>
-    <p>Mi principal interes es por el trabajo manual y trabajo de campo, sin embargo también estoy
+    <h3 class="rectangle">INTERESES</h3>
+    <p class="rectangle" id="five">Mi principal interes es por el trabajo manual y trabajo de campo, sin embargo también estoy
     interesado por la <span style="background: yellow; color: red;">programación,</span> así como
     <span style="background: yellow; color: red;">diseño CAD. </span>Podría resumir el resto de 
     mis intereses en atletismo, ejercicio en gimnasio y amor por el septimo arte.</p>
